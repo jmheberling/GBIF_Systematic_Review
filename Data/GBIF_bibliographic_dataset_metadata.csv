@@ -1,0 +1,20 @@
+﻿#Metadata for GBIF_bibliographic_dataset.csv,
+Column Name,Description
+id,unique article identifier assigned by GBIF
+authors,study author names separated by comma
+year,year of publication
+title,article title
+doi,article doi
+source,journal
+publisher,publisher
+abstract,article abstract (in english when provided)
+openAccess,open access at time of publication or not (boolean)
+notes,additional notes including funding information when recorded
+keywords,author provided keywords
+countriesOfResearcher,country codes separated by commas based on author affiliations (ISO Alpha-2)
+countriesOfCoverage,country codes separated by commas based on countries of coverage (ISO Alpha-2); global studies not included
+tracking source,"source where article was alerted to be added to GBIF literature database (e.g., Google Scholar)"
+Number of downloads,number of separate download DOIs
+Phyla represented in downloads,phyla represented in downloaded GBIF-mediated data (for studies that cite at least one data DOI only)
+Total records in downloads,total number of records in dowloaded GBIF-mediated data (for studies that cite at least on data DOI only)
+taxonomic.group,"coarse taxonomic group included in study (*recorded for recent studies only published after 2015) (studies of taxa including more than one category were assigned ""many"")"

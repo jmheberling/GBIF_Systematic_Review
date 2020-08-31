@@ -1,7 +1,7 @@
 #GBIF systematic review of literature 2020
 #script created 14 Apr 2020; last edit 6 Aug 2020
 #structural topic model code using STM package (see Roberts et al. [2014] American Journal of Political Science 58:1262-1272 and Roberts, M.E., Stewart, B.M. & D. Tingley [2019] Journal of Statistical Software 91:1-40 doi: 10.18637/jss.v091.i02)
-#code below includes model selection, validation, summarie, and visualization
+#code below includes model selection, validation, summaries, and visualizations
 #see Methods and Appendix S1 for additional details
 #**note that topic numbers as numbered in R output are NOT the same as numbered in paper (topics are numbered by descending frequency in paper for easier reader interpretation)
 

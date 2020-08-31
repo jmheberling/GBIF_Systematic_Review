@@ -3,7 +3,7 @@
 #structural topic model code using STM package (see Roberts et al. [2014] American Journal of Political Science 58:1262-1272 and Roberts, M.E., Stewart, B.M. & D. Tingley [2019] Journal of Statistical Software 91:1-40 doi: 10.18637/jss.v091.i02)
 #code below includes model selection, validation, summaries, and visualizations
 #see Methods and Appendix S1 for additional details
-#**note that topic numbers as numbered in R output are NOT the same as numbered in paper (topics are numbered by descending frequency in paper for easier reader interpretation)
+#**note that topic numbers as numbered in R output are NOT the same as numbered in manuscript (topics are numbered by descending frequency in paper for easier reader interpretation)
 
 
 #read in packages--------------------------------------------
@@ -137,7 +137,7 @@ stm100 <- stm(out$documents, out$vocab, K = 100, max.em.its = 150, data = out$me
 #carefully read top words and top abstracts for model to validate model (do topics make sense?) and model selection (which model is most appropriate?)
 
 #note that 25 topic model was presented in paper; 20 and 30 topic models were presented in supplemental information for comparison
-#**note that topic numbers as numbered in output are NOT the same as they are numbered in paper (topics are numbered by descending frequency in paper for easier reader interpretation)
+#**note that topic numbers as numbered in output are NOT the same as they are numbered in manuscript (topics are numbered by descending frequency in paper for easier reader interpretation)
 
 
 #10 topics*******
